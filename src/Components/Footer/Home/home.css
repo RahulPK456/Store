@@ -1,0 +1,72 @@
+
+
+.homes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:20px;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #414042, #240828);
+
+    /* padding: 60px;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    background-color:lightcyan;
+    */
+}
+
+.product{
+    display: flex;
+    padding: 50px;
+    position: relative;
+    flex-direction:column;
+    align-items: center;
+    border: 1px solid rgb(163, 155, 155);
+    box-shadow: 2px 2px 0px 2px;
+    border-radius: 5px;
+    left: 20px;
+    right: 20px;
+    height: auto;
+    overflow-y: none;
+    background-color: rgb(208, 186, 186);
+}
+.price{
+    border: none;
+    border-radius:50%;
+    background-color: red;
+    position: absolute;
+   
+    
+ 
+}
+
+.btn-pdetails{
+    position: absolute;
+    bottom: 0;left: 0;
+    width: 100%;
+    border: 1px solid rgb(90, 74, 74);
+
+    padding: 12px;
+    background-color: #333;
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 0px;
+    cursor: pointer;
+    
+}
+
+.btn-pdetails:hover{
+    background-color: rgb(34, 21, 91);
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover ;
+
+}

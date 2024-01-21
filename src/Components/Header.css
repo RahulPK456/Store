@@ -1,0 +1,39 @@
+.header-top{
+    color:rgba(106, 97, 121, 0.833);
+    background-color:#240808e3;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+     width: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    
+}
+
+.btn{
+    color: white;
+   background-color: rgb(35, 10, 3);
+   border: 1px solid rgb(5, 5, 32);
+   border-radius: 2px;
+   width: 60px;
+   height: 25px;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+
+  position: absolute;
+ right: 40px;
+ margin-top: 10px;
+
+ align-items: center;
+ text-align: center;
+ text-decoration: none;
+cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: darkslateblue;
+    letter-spacing: 2px;
+}
+
